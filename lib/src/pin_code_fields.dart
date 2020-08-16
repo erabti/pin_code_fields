@@ -182,10 +182,10 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
 
   @override
   void initState() {
-    if (!kReleaseMode) {
-      print(
-          "IF YOU WANT TO USE COLOR FILL FOR EACH CELL THEN SET enableActiveFill = true");
-    }
+//     if (!kReleaseMode) {
+//       print(
+//           "IF YOU WANT TO USE COLOR FILL FOR EACH CELL THEN SET enableActiveFill = true");
+//     }
 
     _checkForInvalidValues();
     _assignController();
